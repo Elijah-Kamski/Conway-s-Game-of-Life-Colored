@@ -44,6 +44,7 @@ The Game of Life follows these rules for cell evolution:
 In this implementation, the color of each live cell changes based on the average color of its living neighbors. This feature adds an aesthetic and dynamic element to the simulation, allowing for visual representation of cell interactions and providing a more engaging experience. The colors are represented using RGB values, giving each cell a unique appearance depending on its neighbors. The color of the cell is always rounded to one of the following: 
 
     Rainbow Colors:
+    
 		{255, 0, 0},     // Red
 		{255, 127, 0},   // Orange
 		{255, 255, 0},   // Yellow

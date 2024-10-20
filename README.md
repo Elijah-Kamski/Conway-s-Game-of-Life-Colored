@@ -19,7 +19,7 @@ The Game of Life follows these rules for cell evolution:
     - Birth: A dead cell with exactly three live neighbors becomes a live cell (reproduction).
     - These rules result in complex patterns and behaviors emerging from simple initial conditions.
 
-## Features
+- ## Features
 
 - Interactive grid where users can toggle the state of cells (alive or dead).
 - Start/Pause functionality for the simulation.

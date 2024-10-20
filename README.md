@@ -53,4 +53,4 @@ In this implementation, the color of each live cell changes based on the average
 		{75, 0, 130},    // Indigo
 		{148, 0, 211}    // Violet
 
-  Were the colors not be rounded, the game colors would always end in gray-like tones, making the game more dull and less appealing.
+  Were the colors not be rounded, the game colors would always end with gray-like tones, making the game more dull and less appealing.

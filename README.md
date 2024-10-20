@@ -10,15 +10,18 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 
 
 ## Rules
-  
+
 The Game of Life follows these rules for cell evolution:
 
-  Survival:
-    - A live cell with two or three live neighbors stays alive.
-  Death:
-    - A live cell with fewer than two live neighbors dies (underpopulation).
-    - A live cell with more than three live neighbors dies (overpopulation).
-    - Birth: A dead cell with exactly three live neighbors becomes a live cell (reproduction).
+- **Survival**: 
+  - A live cell with two or three live neighbors stays alive.
+  
+- **Death**:
+  - A live cell with fewer than two live neighbors dies (underpopulation).
+  - A live cell with more than three live neighbors dies (overpopulation).
+  
+- **Birth**: 
+  - A dead cell with exactly three live neighbors becomes a live cell (reproduction).
 
 ## Features
 

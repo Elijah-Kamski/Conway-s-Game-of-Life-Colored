@@ -7,7 +7,8 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 - [Features](#features)
 - [Controls](#controls)
 
-- ## Rules
+
+## Rules
   
 The Game of Life follows these rules for cell evolution:
 
@@ -19,7 +20,7 @@ The Game of Life follows these rules for cell evolution:
     - Birth: A dead cell with exactly three live neighbors becomes a live cell (reproduction).
     - These rules result in complex patterns and behaviors emerging from simple initial conditions.
 
-- ## Features
+## Features
 
 - Interactive grid where users can toggle the state of cells (alive or dead).
 - Start/Pause functionality for the simulation.
@@ -30,7 +31,7 @@ The Game of Life follows these rules for cell evolution:
 - Adjustable frame rate for cell updates.
 
 
-- ## Controls
+## Controls
   
 - Use the mouse to toggle cells between alive (colored) and dead (white).
 - Click the Start button to begin the simulation.

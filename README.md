@@ -6,6 +6,7 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 - [Rules](#rules)
 - [Features](#features)
 - [Controls](#controls)
+- [Color](#color)
 
 
 ## Rules
@@ -18,7 +19,6 @@ The Game of Life follows these rules for cell evolution:
     - A live cell with fewer than two live neighbors dies (underpopulation).
     - A live cell with more than three live neighbors dies (overpopulation).
     - Birth: A dead cell with exactly three live neighbors becomes a live cell (reproduction).
-    - These rules result in complex patterns and behaviors emerging from simple initial conditions.
 
 ## Features
 
@@ -29,7 +29,7 @@ The Game of Life follows these rules for cell evolution:
 - Clear functionality to reset the board without restarting the simulation.
 - Customizable number of rows and columns.
 - Adjustable frame rate for cell updates.
-
+- Dynamic color changes for cells based on the average color of neighboring cells.
 
 ## Controls
   
@@ -39,3 +39,16 @@ The Game of Life follows these rules for cell evolution:
 - Click the Random button to generate a random configuration of cells.
 - Click the Reset button to reset the grid and prompt for new dimensions and refresh rate.
 - Click the Clear button to clear all cells from the grid.
+
+## Color
+In this implementation, the color of each live cell changes based on the average color of its living neighbors. This feature adds an aesthetic and dynamic element to the simulation, allowing for visual representation of cell interactions and providing a more engaging experience. The colors are represented using RGB values, giving each cell a unique appearance depending on its neighbors. The color of the cell is always rounded to one of the following: 
+
+    {255, 0, 0},     // Red
+		{255, 127, 0},   // Orange
+		{255, 255, 0},   // Yellow
+		{0, 255, 0},     // Green
+		{0, 0, 255},     // Blue
+		{75, 0, 130},    // Indigo
+		{148, 0, 211}    // Violet
+
+  Were the colors not be rounded, the game colors would always end in gray-like tones, making the game more dull and less appealing.
